@@ -7,7 +7,13 @@ const config: Config = {
     './src/containers/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        roboto: ['Plus Jakarta Sans', 'Roboto', 'Space Grotesk', 'sans-serif'], //Update fonts
+      },
+    },
+  },
   plugins: [],
 };
 export default config;
