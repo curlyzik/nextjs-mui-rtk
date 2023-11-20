@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Next, MUI, TailwindCss',
-  description: 'Boilerplate for Nextjs with MUI and TailwindCss',
+  description: 'Boilerplate for Nextjs with MUI and TailwindCss'
 };
 
 export default function RootLayout({
