@@ -35,5 +35,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 Prettier/Husky Setup
+Page loader with "nextjs-toploader"
+Redux Toolkit
+Redux Logger
+Redux Persist
+RTK Query Global Error Logger
+React Toastify
+Mui Config
+Global font
