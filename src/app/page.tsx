@@ -1,5 +1,9 @@
-import Image from 'next/image';
+import ShowWelcomeMessage from '@/components/ShowWelcomeMessage';
 
 export default function Home() {
-    return <main>Hello</main>;
+  return (
+    <main>
+      <ShowWelcomeMessage />
+    </main>
+  );
 }
