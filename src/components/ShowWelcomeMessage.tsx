@@ -17,4 +17,4 @@ const ShowWelcomeMessage = () => {
   );
 };
 
-export default ShowWelcomeMessage;
+export default ShowWelcomeMessage
