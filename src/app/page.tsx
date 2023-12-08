@@ -1,9 +1,9 @@
-import ShowWelcomeMessage from '@/components/ShowWelcomeMessage';
+import Example from '@/components/Example';
 
 export default function Home() {
   return (
     <main>
-      <ShowWelcomeMessage />
+      <Example />
     </main>
   );
 }
