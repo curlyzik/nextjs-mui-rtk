@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  important: true,
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,7 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['Plus Jakarta Sans', 'Roboto', 'Space Grotesk', 'sans-serif'], //Update fonts
+        manrope: ['Manrope', 'sans-serif'], //Update fonts
       },
     },
   },
