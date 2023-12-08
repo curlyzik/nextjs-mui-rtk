@@ -5,6 +5,7 @@ import customStorage from './cutomStorage';
 import { customLogger } from './middlewares/customLogger';
 import { rtkQueryErrorLogger } from './middlewares/rtkQueryErrorLogger';
 import authSlice from './slices/authSlice';
+import { jsonPlaceHolderApi } from '@/api/baseQueries';
 
 const rootReducer = combineReducers({
   auth: authSlice,
@@ -19,12 +20,18 @@ const persistedReducers = persistReducer(
   rootReducer
 );
 
-const middleWares = [rtkQueryErrorLogger, customLogger];
+const middleWares = [
+  rtkQueryErrorLogger,
+  customLogger,
+  jsonPlaceHolderApi.middleware,
+];
 
 export const store = configureStore({
   reducer: {
+    [jsonPlaceHolderApi.reducerPath]: jsonPlaceHolderApi.reducer,
     persistedReducers,
   },
+
   middleware: (getDefaultMiddleware) => {
     return getDefaultMiddleware({ serializableCheck: false }).concat(
       middleWares
