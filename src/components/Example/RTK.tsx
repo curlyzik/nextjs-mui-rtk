@@ -22,7 +22,7 @@ const RTK = () => {
                 .catch((err) => {})
             }
           >
-            Fetch Data
+            Fetch Posts
           </Button>
         </div>
         <div className="flex flex-col gap-y-2">
