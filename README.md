@@ -1,6 +1,6 @@
-# Nextjs, MUI Boilerplate. 
+# Nextjs RTK MUI Boilerplate. 
 
-Simple boilerplate with Nextjs, MUI (Material UI) and TailwindCSS..
+Simple boilerplate with Nextjs, Redux Toolkit, MUI (Material UI) and TailwindCSS..
 
 ## Features
 
