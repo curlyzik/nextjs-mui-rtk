@@ -7,7 +7,7 @@ import { Providers } from '@/redux/providers';
 import MuiTheme from '@/_lib/MuiTheme';
 
 export const metadata: Metadata = {
-  title: 'Next, MUI, TailwindCss',
+  title: 'Next, MUI, Redux Toolkit, TailwindCss',
   description: 'Boilerplate for Nextjs with MUI and TailwindCss',
 };
 
