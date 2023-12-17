@@ -48,6 +48,7 @@ const Todo = () => {
 
   return (
     <div className="space-y-3">
+      <div className="font-semibold text-4xl pb-4">Todo 🧑‍🍳</div>
       <div className="text-base font-semibold">What are you doing today?</div>
       <TextField
         label="What should be done?"

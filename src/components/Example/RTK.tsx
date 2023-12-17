@@ -9,7 +9,7 @@ const RTK = () => {
   return (
     <div>
       <div className="space-y-2">
-        <div className="font-semibold text-4xl pb-4">RTK Query</div>
+        <div className="font-semibold text-4xl pb-4">RTK Query 📞</div>
         <div>
           <Button
             variant="contained"
