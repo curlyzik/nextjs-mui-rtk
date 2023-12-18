@@ -19,4 +19,4 @@ Simple boilerplate with Nextjs, Redux Toolkit, MUI (Material UI) and TailwindCSS
 - RTK Query Global Error Logger - [Docs](https://redux-toolkit.js.org/rtk-query/usage/error-handling#handling-errors-at-a-macro-level), [Usage](https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/redux/middlewares/rtkQueryErrorLogger.ts)
 - React Toastify - [Docs](https://www.npmjs.com/package/react-toastify), [Usage](https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/utils/displaySuccessMessage.tsx)
 - Page loader with "nextjs-toploader" - [Docs](https://www.npmjs.com/package/nextjs-toploader), [Usage](https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/app/layout.tsx)
-- Mui Config - [Usage](https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/_lib/MuiTheme.tsx)
+- Mui Config - [Docs](https://mui.com/material-ui/getting-started/installation), [Usage](https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/_lib/MuiTheme.tsx)
