@@ -71,7 +71,7 @@ const Features = () => {
         {features.map((feature) => (
           <div key={feature.name}>
             ✔️{' '}
-            <a href={feature.doc} className="font-semibold">
+            <a href={feature.doc} className="font-semibold" target="_blank">
               {feature.name}
             </a>
           </div>
