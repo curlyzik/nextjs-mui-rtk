@@ -49,7 +49,7 @@ const features = [
   },
   {
     name: 'Mui Config',
-    doc: 'https://www.npmjs.com/package/nextjs-toploader',
+    doc: 'https://mui.com/material-ui/getting-started/installation',
     usage:
       'https://github.com/curlyzik/nextjs-mui-rtk/blob/main/src/_lib/MuiTheme.tsx',
   },
