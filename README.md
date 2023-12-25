@@ -5,6 +5,7 @@ Simple boilerplate with Nextjs, Redux Toolkit, MUI (Material UI) and TailwindCSS
 ## Getting Started
 
 - Clone the repo and change to directory
+- Run `npm i` to install packages.
 - Run the development server with `npm run dev`.
 - Navigate to [http://localhost:3000](http://localhost:3000) on your browser.
   
